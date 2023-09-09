@@ -1,0 +1,3 @@
+INDEX VERSION 1.134+C:\OneDrive\Programing\Exercicios_Java\.metadata\.plugins\org.eclipse.jdt.core
+2960160742.index
+1145074095.index
