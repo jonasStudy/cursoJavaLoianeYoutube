@@ -1,0 +1,24 @@
+for (int i = 0; i < valores.length / 2; i++) {
+    int temp = valores[i];
+    valores[i] = valores[valores.length - 1 - i];
+    valores[valores.length - 1 - i] = temp;
+}
+
+
+1 - int temp = valores[i];: Aqui, criamos uma variável temporária chamada temp para armazenar o valor do elemento atual do array em valores[i].
+
+2 - valores[i] = valores[valores.length - 1 - i];: Nesta linha, atribuímos o valor do último elemento do array (posição valores.length - 1 - i) 
+ao elemento atual do array (valores[i]). Isso está movendo o elemento do final do array para a posição atual.
+
+3 - valores[valores.length - 1 - i] = temp;: Nesta linha, atribuímos o valor armazenado em temp (o valor original do elemento atual) ao último 
+elemento do array. Isso está movendo o valor original do elemento atual para a posição que antes era o último elemento do array.
+
+A cada iteração, esse processo troca o primeiro elemento com o último, o segundo elemento com o penúltimo e assim por diante. Isso efetivamente 
+inverte a ordem dos elementos no array.
+
+A razão para a condição do loop ser i < valores.length / 2 é que, para inverter o array corretamente, você só precisa trocar os elementos até o 
+ponto médio (a metade) do array. Se você continuar trocando além desse ponto, estará revertendo a inversão e os elementos voltarão à ordem original.
+
+Por exemplo, se tivermos um array inicial [1, 2, 3, 4, 5], a primeira iteração do loop trocará o elemento 1 com o elemento 5, resultando em 
+[5, 2, 3, 4, 1]. A segunda iteração trocará o elemento 2 com o elemento 4, resultando em [5, 4, 3, 2, 1], que é o array invertido corretamente. 
+Portanto, o loop não precisa continuar além da metade do array.

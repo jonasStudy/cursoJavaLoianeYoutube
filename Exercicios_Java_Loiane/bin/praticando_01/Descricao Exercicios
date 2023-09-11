@@ -1,0 +1,35 @@
+Descricao dos Exercicios - 01 - (Lacos)
+
+1 - Faca um programa que some dois numeros e imprima o maior deles. 
+
+2 - Fazer um programa que leia um valor e mostre na tela se é positivo ou negativo. 
+
+3 - Escrever um programa que verifique se a letra digitada é F para feminino, M para masculino ou Sexo Invalido. 
+    - Explicacao sobre o codigo: 
+        - O tipo String é uma classe. Portanto, possui seu próprio método comparativo: equals ou equalsIgnoreCase. 
+            - O operador "==" não funciona com comparação de Strings. 
+                - O "equalsIgnoreCase" não faz distinção entre letras maiúsculas e minúsculas. 
+
+4 - Faca um programa para manipular se o valor de entrada é vogal ou consoante. 
+
+5 - Faca um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a media alcançada por 
+aluno e apresentar: 
+> A mensagem "Aprovado": se a média for maior ou igual a sete;
+> A mensagem "Reprovado": se a média for menor que sete;
+> A mensagem "Aprovado com Distinção": se a média for igual a dez;
+
+6 - Faca um programa que leia tres numeros e mostre o maior deles; 
+
+7 - Faca um programa que leia tres numeros e mostre o maior e o menor deles; 
+
+8 - Faca um programa que pergunte o preco de 3 produtos e informe qual produto voce deve comprar. 
+	- a decisao e sempre o mais barato;  
+	
+9 - Faca um programa que leia 3 numeros e os mostre em ordem decrescente. 
+	- Uma maneira simples de fazer isso é armazenar os valores em um array;
+		- Em seguida utilizar a funcao: Arrays.sort() para classificar o array em ordem crescente;
+			- Finalmente inverter o array para obter a ordem decrescente;
+
+
+
+
